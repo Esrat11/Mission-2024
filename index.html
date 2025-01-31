@@ -1,22 +1,60 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body class="poppins-thin width">
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="">
     <header>
-        <div class="banner">
-            <div class="ban-header">
-                <h2 class="ban-title">Stay Focused on <br>
-                   <span> Mission 2022</span></h2>
-                <p>Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
-                <button class="btn-style">Explore Now</button>
-                <img src="images/person/person-0.png" alt="">
+        <!-- banner -->
+         <div class="max-w-screen-lg mx-auto mt-10 lg:flex justify-items-center justify-evenly">
+            <!-- text -->
+            <div class="w-2/4 ">
+                <h2 class="font-bold text-5xl mb-2">Stay Focused on <br> 
+                   <span class=" text-orange-400">Mission 2024</span>
+               </h2>
+                <p class="my-4">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
+
+                <button class="text-white text-sm font-bold bg-red-400 rounded-xl p-3">Explore Now</button>
             </div>
-        </div>
+
+            <!-- image -->
+             <div class="lg:w-1/4">
+              <img src="./images/person/person-0.png" alt="">
+             </div>
+         </div>
     </header>
-    <main></main>
-    <footer></footer>
-</body>
+    <main class="">
+      <!-- my mission section -->
+       <div class="max-w-screen-lg mt-10 mx-auto">
+        <!-- title -->
+        <div class="justify-items-center">
+          <h3 class=" lg:text-5xl font-bold">My Mission in <span class="text-orange-400">2024</span></h3>  
+        </div>
+
+        <!-- card -->
+         <div class="lg:grid grid-cols-3 gap-5 mt-12">
+          <!-- card-1 -->
+          <div class="bg-sky-100 rounded-xl p-4">
+            <img src="images/illustrators/illustrator-1.png" alt="">
+            <h4 class="font-bold text-2xl">Mission</h4>
+             <p class="text-gray-500">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+          <!-- card 2 -->
+          <div class="bg-orange-300/10 rounded-xl p-4">
+            <img src="images/illustrators/illustrator-2.png" alt="">
+            <h4 class="font-bold text-2xl">Vission</h4>
+             <p class="text-gray-500">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+          <!-- card 3 -->
+          <div class="bg-pink-200 rounded-xl p-4">
+            <img src="images/illustrators/illustrator-3.png" alt="">
+            <h4 class="font-bold text-2xl">Goals</h4>
+             <p class="text-gray-500">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+          </div>
+         </div>
+       </div>
+    </main>
+  </body>
 </html>
